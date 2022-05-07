@@ -54,6 +54,9 @@ img {
 /* .header {
   background-color: tomato;
 } */
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .header-container {
   display: flex;
@@ -112,8 +115,6 @@ img {
 
 .header-list .item {
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-list .item:last-child {
@@ -121,6 +122,8 @@ img {
 }
 
 .header-list .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-title-color);
 }
 .header-list .link:hover,
@@ -136,11 +139,12 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
-.auth-nav-item {
-  margin-right: 50px;
+.auth-nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.auth-nav-item {
+  margin-right: 50px;
 }
 .auth-nav-item:last-child {
   margin-right: 0;
@@ -192,6 +196,9 @@ img {
 }
 
 /* Section Сильные стороны компании*/
+.feature-section {
+  padding-bottom: 0px;
+}
 
 .feature-section-title {
   font-weight: 700;
@@ -208,6 +215,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-title-color);
+  margin-bottom: 10px;
 }
 .feature-section-list {
   display: flex;
@@ -222,8 +230,8 @@ img {
 .feature-section-item {
   margin-right: 30px;
   width: 270px;
-  height: 101px;
 }
+
 .feature-section-item:last-child {
   margin-right: 0px;
 }
@@ -273,8 +281,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
-.member-section-title {
+.box-team-text {
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.member-section-title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -284,7 +296,6 @@ img {
   color: var(--primary-title-color);
 }
 .team-section-text {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -421,6 +432,7 @@ img {
 .box-text {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .projects-title {
   margin-bottom: 4px;
